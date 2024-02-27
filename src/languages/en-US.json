@@ -1,0 +1,26 @@
+{
+    "label":{
+        "login":"Sign In",
+        "email":"Email",
+        "password":"Password",
+        "passwordChangeSuccess":"Password changed successfully"
+    },
+    "button":{
+        "signIn":"Sign In"
+    },
+    "link":{
+        "forgotPassword":"Forgot Password"
+    },
+    "placeholder":{
+        "email":"Enter email",
+        "password":"Enter Password"
+    },
+    "validation":{
+        "enterEmail":"Please enter email",
+        "enterPassword":"Please enter password",
+        "enterRegisteredEmail":"Please enter a valid email",
+        "enterCorrectPassword":"Please enter a valid password",
+        "enterValidFormat":"Invalid login credentials",
+        "enterCorrectCredentials":"Email or password is incorrect"
+    }
+}

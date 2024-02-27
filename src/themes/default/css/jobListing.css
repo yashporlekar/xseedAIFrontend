@@ -1,0 +1,189 @@
+/* Subnavbar css */
+.subnav {
+  display: flex;
+
+  padding: 15px;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  background-color: rgb(255, 255, 255);
+  flex: 1 0 0;
+  margin-bottom: 20px;
+}
+
+.newJobButton {
+  padding: 5px 12px;
+  border-radius: 4px;
+  background-color: #0b82f1;
+  color: rgb(247, 247, 247);
+  width: 100px;
+  height: 35px;
+}
+
+.job {
+  display: flex;
+  align-items: center;
+  gap: var(--Main-System-10px, 10px);
+  text-align: center;
+}
+
+.headingStyles {
+  color: var(--grey-600, #475467);
+  font-size: 24px;
+}
+
+.headingCount {
+  color: var(--Brand-700, var(--Brand-Color-700, #0a75d9));
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* empty pagge css */
+
+.addFilesCenterPNG {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Main-System-10px, 10px);
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.tableee {
+  margin: 0px 50px 0px 50px;
+}
+
+.contentWrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 400px;
+}
+
+.addFileIcon {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.newDuplicateButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--Main-System-10px, 10px);
+}
+
+.newJobButton1 {
+  min-width: 100px;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--Brand-Color-600, #0b82f1);
+  margin-top: 10px;
+  color: #0b82f1;
+}
+
+.duplicateJob {
+  display: flex;
+  min-width: 100px;
+  padding: 5px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0b82f1;
+}
+
+/* Table CSS */
+.mainTable {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  align-self: stretch;
+  width: 100%;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.small-card {
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+  width: 165px;
+  height: 170px;
+}
+
+.tableTopActionBar {
+  display: flex;
+  padding: 15px var(--Main-System-20px, 35px);
+  align-items: flex-end;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ffffff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.filterSearchButtons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: var(--Main-System-20px, 20px);
+  align-items: center;
+}
+
+.filterButton {
+  display: flex;
+  min-width: 100px;
+  padding: var(--Main-System-8px, 8px) var(--Main-System-12px, 12px);
+  flex-direction: column;
+  align-items: center;
+  color: grey;
+  height: auto;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  max-width: 300px;
+  justify-content: space-between;
+}
+
+.manageColumnDiv {
+  display: flex;
+  align-items: center;
+  gap: var(--Main-System-20px, 10px);
+  align-self: stretch;
+  margin-left: auto;
+}
+
+.manageColumnIcon {
+  color: #0b82f1;
+}
+
+.maxColumnsTypography {
+  margin-right: 260px;
+  margin-top: -25px;
+  color: #7b7b7b;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+  .tableTopActionBar,
+  .emptySection,
+  .nestedTable {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  height: 960px;
+  padding: 80px 32px 48px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+
+  background: var(--Brand-25, #F9FCFF);
+}
